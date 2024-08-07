@@ -7,14 +7,15 @@ with open(csvpath) as csvfile:
     csvReader = csv.reader(csvfile, delimiter=',')
     csv_header = next(csvReader)
     
-    total_months = 0
-    net_profit = 0
+    total_months = 1
     prev_profit = int(next(csvReader)[1])
+    net_profit = prev_profit
     total_change = 0
     greatest_increase = 0
     greatest_decrease = 0
     
     for row in csvReader:
+          #print(row[0])
           # The total number of months included in the dataset
           total_months = total_months + 1
 
@@ -37,7 +38,7 @@ with open(csvpath) as csvfile:
                greatest_decrease_date = row[0]             
 
      # The average of those changes
-    average = (total_change) / (total_months)
+    average = (total_change) / (total_months -1 )
 
     print(" Financial Analysis")
     print("----------------------------------------")    
