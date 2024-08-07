@@ -1,5 +1,5 @@
 # python-challenge
-It's for PyBank:
+Q:1 It's for PyBank:
 
 In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
@@ -17,7 +17,7 @@ The greatest decrease in profits (date and amount) over the entire period
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-It's for PyPoll:
+Q:2 It's for PyPoll:
 
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
 
